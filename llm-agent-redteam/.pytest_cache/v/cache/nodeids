@@ -1,0 +1,15 @@
+[
+  "tests/test_mcp_server.py::test_query_db_blocks_semicolon_chaining_injection",
+  "tests/test_mcp_server.py::test_query_db_rejects_non_select_statements",
+  "tests/test_mcp_server.py::test_query_db_valid_select_returns_json",
+  "tests/test_mcp_server.py::test_read_file_missing_file_raises_error",
+  "tests/test_mcp_server.py::test_read_file_path_traversal_blocked",
+  "tests/test_mcp_server.py::test_read_file_success",
+  "tests/test_mcp_server.py::test_send_email_invalid_recipient_rejected",
+  "tests/test_mcp_server.py::test_send_email_valid_appends_jsonl_log",
+  "tests/test_mcp_server.py::test_web_fetch_known_urls_return_mock_data",
+  "tests/test_mcp_server.py::test_web_fetch_unknown_url_returns_graceful_fallback",
+  "tests/test_mock_db.py::test_get_connection_context_manager_commits_and_closes",
+  "tests/test_mock_db.py::test_init_db_creates_table_and_seeds",
+  "tests/test_mock_db.py::test_init_db_idempotency_and_force_recreate"
+]

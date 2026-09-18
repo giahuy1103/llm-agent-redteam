@@ -1,0 +1,6 @@
+{
+  "name": "LLM Agent Red-Teaming Framework",
+  "description": "Base scaffold for defensive security research evaluating LLM agents against prompt injection, tool hijacking, and data exfiltration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

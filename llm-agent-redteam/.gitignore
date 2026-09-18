@@ -1,0 +1,32 @@
+# Environment variables and local secrets
+.env
+.env.local
+.env.*.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing cache & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and audit artifacts (do not commit test databases or results)
+data/mock.db
+data/*.db-journal
+logs/*.log
+results/*.jsonl
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp

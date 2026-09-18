@@ -1,0 +1,15 @@
+[
+  "llm-agent-redteam/tests/test_mcp_server.py::test_query_db_blocks_semicolon_chaining_injection",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_query_db_rejects_non_select_statements",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_query_db_valid_select_returns_json",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_read_file_missing_file_raises_error",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_read_file_path_traversal_blocked",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_read_file_success",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_send_email_invalid_recipient_rejected",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_send_email_valid_appends_jsonl_log",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_web_fetch_known_urls_return_mock_data",
+  "llm-agent-redteam/tests/test_mcp_server.py::test_web_fetch_unknown_url_returns_graceful_fallback",
+  "llm-agent-redteam/tests/test_mock_db.py::test_get_connection_context_manager_commits_and_closes",
+  "llm-agent-redteam/tests/test_mock_db.py::test_init_db_creates_table_and_seeds",
+  "llm-agent-redteam/tests/test_mock_db.py::test_init_db_idempotency_and_force_recreate"
+]
