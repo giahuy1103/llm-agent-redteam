@@ -1,0 +1,14 @@
+# Core Google GenAI SDK (official next-generation library)
+google-genai==2.24.0
+
+# Model Context Protocol (MCP) official SDK
+mcp==2.2.0
+
+# Environment configuration
+python-dotenv==1.2.3
+
+# Unit testing framework
+pytest==9.1.1
+
+# Optional: rich for enhanced terminal tables and styling
+rich==15.0.0
